@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F540DBB31895CB0200951725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540DBB21895CB0200951725 /* Foundation.framework */; };
+		F540DBB51895CB0200951725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540DBB41895CB0200951725 /* CoreGraphics.framework */; };
+		F540DBB71895CB0200951725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540DBB61895CB0200951725 /* UIKit.framework */; };
+		F540DBB91895CB0200951725 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F540DBB81895CB0200951725 /* CoreData.framework */; };
+		F540DBBF1895CB0200951725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F540DBBD1895CB0200951725 /* InfoPlist.strings */; };
+		F540DBC11895CB0200951725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DBC01895CB0200951725 /* main.m */; };
+		F540DBC51895CB0200951725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DBC41895CB0200951725 /* AppDelegate.m */; };
+		F540DBC81895CB0200951725 /* StonyNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F540DBC61895CB0200951725 /* StonyNotes.xcdatamodeld */; };
+		F540DBCA1895CB0200951725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F540DBC91895CB0200951725 /* Images.xcassets */; };
+		F540DBEB1895CBFA00951725 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DBEA1895CBFA00951725 /* Note.m */; };
+		F540DBEF1895CC1F00951725 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DBED1895CC1F00951725 /* MainViewController.m */; };
+		F540DBF01895CC1F00951725 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540DBEE1895CC1F00951725 /* MainViewController.xib */; };
+		F540DBF31895CC6900951725 /* MainViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540DBF21895CC6900951725 /* MainViewController-iPad.xib */; };
+		F540DBFD1895D8CD00951725 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DBFB1895D8CD00951725 /* NoteViewController.m */; };
+		F540DBFE1895D8CD00951725 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540DBFC1895D8CD00951725 /* NoteViewController.xib */; };
+		F540DC001895D9AA00951725 /* NoteViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F540DBFF1895D9AA00951725 /* NoteViewController-iPad.xib */; };
+		F540DC031895EFF000951725 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DC021895EFF000951725 /* NSString+Category.m */; };
+		F540DC061895F6A900951725 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F540DC051895F6A900951725 /* NSDate+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F540DBAF1895CB0200951725 /* StonyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F540DBB21895CB0200951725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F540DBB41895CB0200951725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F540DBB61895CB0200951725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F540DBB81895CB0200951725 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F540DBBC1895CB0200951725 /* StonyNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StonyNotes-Info.plist"; sourceTree = "<group>"; };
+		F540DBBE1895CB0200951725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F540DBC01895CB0200951725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F540DBC21895CB0200951725 /* StonyNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StonyNotes-Prefix.pch"; sourceTree = "<group>"; };
+		F540DBC31895CB0200951725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F540DBC41895CB0200951725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F540DBC71895CB0200951725 /* StonyNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StonyNotes.xcdatamodel; sourceTree = "<group>"; };
+		F540DBC91895CB0200951725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StonyNotes/Images.xcassets; sourceTree = "<group>"; };
+		F540DBE91895CBFA00951725 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		F540DBEA1895CBFA00951725 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		F540DBEC1895CC1F00951725 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F540DBED1895CC1F00951725 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F540DBEE1895CC1F00951725 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F540DBF21895CC6900951725 /* MainViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MainViewController-iPad.xib"; sourceTree = "<group>"; };
+		F540DBF41895CCBD00951725 /* NibNameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NibNameProtocol.h; sourceTree = "<group>"; };
+		F540DBF71895CFFC00951725 /* GUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUID.h; sourceTree = "<group>"; };
+		F540DBFA1895D8CD00951725 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		F540DBFB1895D8CD00951725 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		F540DBFC1895D8CD00951725 /* NoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		F540DBFF1895D9AA00951725 /* NoteViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "NoteViewController-iPad.xib"; sourceTree = "<group>"; };
+		F540DC011895EFF000951725 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		F540DC021895EFF000951725 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		F540DC041895F6A900951725 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		F540DC051895F6A900951725 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F540DBAC1895CB0100951725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540DBB51895CB0200951725 /* CoreGraphics.framework in Frameworks */,
+				F540DBB91895CB0200951725 /* CoreData.framework in Frameworks */,
+				F540DBB71895CB0200951725 /* UIKit.framework in Frameworks */,
+				F540DBB31895CB0200951725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F540DBA61895CB0100951725 = {
+			isa = PBXGroup;
+			children = (
+				F540DBE81895CB2B00951725 /* Resources */,
+				F540DBBA1895CB0200951725 /* StonyNotes */,
+				F540DBE71895CB2600951725 /* Ignore */,
+			);
+			sourceTree = "<group>";
+		};
+		F540DBB01895CB0200951725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBAF1895CB0200951725 /* StonyNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F540DBB11895CB0200951725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBB21895CB0200951725 /* Foundation.framework */,
+				F540DBB41895CB0200951725 /* CoreGraphics.framework */,
+				F540DBB61895CB0200951725 /* UIKit.framework */,
+				F540DBB81895CB0200951725 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F540DBBA1895CB0200951725 /* StonyNotes */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBF51895CCD300951725 /* Categories and Helpers */,
+				F540DBF61895CD1500951725 /* Data Model */,
+				F540DBF11895CC4800951725 /* View Controllers */,
+				F540DBC31895CB0200951725 /* AppDelegate.h */,
+				F540DBC41895CB0200951725 /* AppDelegate.m */,
+			);
+			path = StonyNotes;
+			sourceTree = "<group>";
+		};
+		F540DBBB1895CB0200951725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBBC1895CB0200951725 /* StonyNotes-Info.plist */,
+				F540DBBD1895CB0200951725 /* InfoPlist.strings */,
+				F540DBC01895CB0200951725 /* main.m */,
+				F540DBC21895CB0200951725 /* StonyNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = StonyNotes;
+			sourceTree = "<group>";
+		};
+		F540DBE71895CB2600951725 /* Ignore */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBBB1895CB0200951725 /* Supporting Files */,
+				F540DBB11895CB0200951725 /* Frameworks */,
+				F540DBB01895CB0200951725 /* Products */,
+			);
+			name = Ignore;
+			sourceTree = "<group>";
+		};
+		F540DBE81895CB2B00951725 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBC91895CB0200951725 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F540DBF11895CC4800951725 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBF91895D8B100951725 /* Note Detail */,
+				F540DBF81895D8A100951725 /* Note List */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F540DBF51895CCD300951725 /* Categories and Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBF41895CCBD00951725 /* NibNameProtocol.h */,
+				F540DBF71895CFFC00951725 /* GUID.h */,
+				F540DC011895EFF000951725 /* NSString+Category.h */,
+				F540DC021895EFF000951725 /* NSString+Category.m */,
+				F540DC041895F6A900951725 /* NSDate+Category.h */,
+				F540DC051895F6A900951725 /* NSDate+Category.m */,
+			);
+			name = "Categories and Helpers";
+			sourceTree = "<group>";
+		};
+		F540DBF61895CD1500951725 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBC61895CB0200951725 /* StonyNotes.xcdatamodeld */,
+				F540DBE91895CBFA00951725 /* Note.h */,
+				F540DBEA1895CBFA00951725 /* Note.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		F540DBF81895D8A100951725 /* Note List */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBEC1895CC1F00951725 /* MainViewController.h */,
+				F540DBED1895CC1F00951725 /* MainViewController.m */,
+				F540DBEE1895CC1F00951725 /* MainViewController.xib */,
+				F540DBF21895CC6900951725 /* MainViewController-iPad.xib */,
+			);
+			name = "Note List";
+			sourceTree = "<group>";
+		};
+		F540DBF91895D8B100951725 /* Note Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F540DBFA1895D8CD00951725 /* NoteViewController.h */,
+				F540DBFB1895D8CD00951725 /* NoteViewController.m */,
+				F540DBFC1895D8CD00951725 /* NoteViewController.xib */,
+				F540DBFF1895D9AA00951725 /* NoteViewController-iPad.xib */,
+			);
+			name = "Note Detail";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F540DBAE1895CB0100951725 /* StonyNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F540DBE11895CB0200951725 /* Build configuration list for PBXNativeTarget "StonyNotes" */;
+			buildPhases = (
+				F540DBAB1895CB0100951725 /* Sources */,
+				F540DBAC1895CB0100951725 /* Frameworks */,
+				F540DBAD1895CB0100951725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StonyNotes;
+			productName = StonyNotes;
+			productReference = F540DBAF1895CB0200951725 /* StonyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F540DBA71895CB0100951725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = JimmyBouker;
+			};
+			buildConfigurationList = F540DBAA1895CB0100951725 /* Build configuration list for PBXProject "StonyNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F540DBA61895CB0100951725;
+			productRefGroup = F540DBB01895CB0200951725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F540DBAE1895CB0100951725 /* StonyNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F540DBAD1895CB0100951725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540DC001895D9AA00951725 /* NoteViewController-iPad.xib in Resources */,
+				F540DBBF1895CB0200951725 /* InfoPlist.strings in Resources */,
+				F540DBF01895CC1F00951725 /* MainViewController.xib in Resources */,
+				F540DBCA1895CB0200951725 /* Images.xcassets in Resources */,
+				F540DBFE1895D8CD00951725 /* NoteViewController.xib in Resources */,
+				F540DBF31895CC6900951725 /* MainViewController-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F540DBAB1895CB0100951725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F540DC031895EFF000951725 /* NSString+Category.m in Sources */,
+				F540DBC51895CB0200951725 /* AppDelegate.m in Sources */,
+				F540DBC11895CB0200951725 /* main.m in Sources */,
+				F540DBC81895CB0200951725 /* StonyNotes.xcdatamodeld in Sources */,
+				F540DC061895F6A900951725 /* NSDate+Category.m in Sources */,
+				F540DBEF1895CC1F00951725 /* MainViewController.m in Sources */,
+				F540DBFD1895D8CD00951725 /* NoteViewController.m in Sources */,
+				F540DBEB1895CBFA00951725 /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F540DBBD1895CB0200951725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F540DBBE1895CB0200951725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F540DBDF1895CB0200951725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F540DBE01895CB0200951725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F540DBE21895CB0200951725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StonyNotes/StonyNotes-Prefix.pch";
+				INFOPLIST_FILE = "StonyNotes/StonyNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F540DBE31895CB0200951725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StonyNotes/StonyNotes-Prefix.pch";
+				INFOPLIST_FILE = "StonyNotes/StonyNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F540DBAA1895CB0100951725 /* Build configuration list for PBXProject "StonyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540DBDF1895CB0200951725 /* Debug */,
+				F540DBE01895CB0200951725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F540DBE11895CB0200951725 /* Build configuration list for PBXNativeTarget "StonyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F540DBE21895CB0200951725 /* Debug */,
+				F540DBE31895CB0200951725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F540DBC61895CB0200951725 /* StonyNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F540DBC71895CB0200951725 /* StonyNotes.xcdatamodel */,
+			);
+			currentVersion = F540DBC71895CB0200951725 /* StonyNotes.xcdatamodel */;
+			path = StonyNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F540DBA71895CB0100951725 /* Project object */;
+}
